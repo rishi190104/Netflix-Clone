@@ -1,0 +1,321 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.logo svg {
+    width: 130px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 22px;
+    gap: 250px;
+}
+
+.header {
+    width: 100%;
+    height: 85vh;
+    border: 1px solid;
+    background-image: url(./assests/images/IN-en-20240715-POP_SIGNUP_TWO_WEEKS-perspective_WEB_c6d6616f-4478-4ac2-bdac-f54b444771dd_large.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+
+}
+.back {
+    backdrop-filter: blur(2px);
+    
+}
+
+
+
+.lang {
+    display: flex;
+    gap: 15px;
+}
+
+.lang .lang-one {
+    background-color: rgb(73, 64, 64);
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 12px;
+    border: 0.5px solid white;
+    border-radius: 4px;
+}
+
+.lang .lang-two {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 12px;
+    border: 0.5px solid rgb(0, 0, 0);
+    border-radius: 4px;
+}
+
+.lang .lang-two:hover {
+    cursor: pointer;
+    background-color: rgb(221, 0, 0);
+}
+
+
+.header .logo {
+    fill: rgb(255, 4, 4);
+}
+
+.header .op {
+    filter: opacity(0.70);
+    background-color: #000000;
+    width: 100%;
+    height: 90vh;
+
+
+}
+
+.header .tag-line {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 206px 63px 0px 63px;
+    gap: 16px;
+}
+
+.tag-line>:nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.tag-line>:nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.tag-line>:nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.entry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+
+
+.entry input {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px 36px;
+    padding-left: 10px;
+    background-color: rgba(23, 23, 23, 0.7);
+    color: white;
+
+}
+
+.entry .btn {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 7px 36px;
+    background-color: red;
+    color: white;
+}
+
+.entry .btn:hover {
+    cursor: pointer;
+    background-color: rgb(221, 0, 0);
+}
+
+.separation {
+    height: 7px;
+    width: 100vw;
+    background-color: rgb(66, 60, 60);
+}
+
+.sec-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    position: relative;
+    margin: auto;
+    /* padding: 0px 150px 150px; */
+    padding-left: 230px;
+   
+}
+
+.sec-one .sectag-one {
+    padding-bottom: 190px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.sec-one .sectag-one {
+    color: white;
+}
+
+.sectag-one>:nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sectag-one>:nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.sectag-one>:nth-child(3) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.sectag-two video {
+    position: relative;
+    left: 84px;
+    bottom: 385px;
+    z-index: -1;
+}
+
+.two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 250px;
+    padding-bottom: 200px;
+}
+
+.sec-one .sectag-four {
+    color: white;
+
+}
+
+.sectag-four>:nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sectag-four>:nth-child(2) {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sectag-four>:nth-child(3) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.three .sectag-two img {
+    position: relative;
+    top: 50px;
+    right: 27px;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 80px;
+    margin-bottom: 25px;
+}
+
+.sectag-four>:nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.faq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.faq h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.faq .que {
+    width: 1240px;
+    height: 87px;
+    background-color: rgba(45, 45, 45, 1);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 400;
+    gap: 10px;
+    padding: 8px 12px;
+}
+
+.email {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ready {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.end {
+    padding: 30px;
+}
+
+.call,
+.drop {
+    color: rgba(255, 255, 255, 0.613);
+    display: flex;
+    padding-left: 250px;
+    align-items: center;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    gap: 200px;
+    padding: 10px;
+
+}
+
+.help {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.help a {
+    color: rgba(255, 255, 255, 0.613);
+}

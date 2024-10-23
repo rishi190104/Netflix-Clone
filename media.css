@@ -1,0 +1,30 @@
+@media only screen and (max-height:400px) {
+    .header {
+        height: 130vh;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .header {
+        height: 130vh;
+    }
+    
+    .entry {
+        flex-direction:column;
+    }
+
+    .sec-one {
+        flex-direction: column;
+        padding-bottom: 0px;
+        padding-left: 150px;
+        gap: 0px;
+    }
+
+    .faq h2 {
+        font-size: 28px;
+    }
+
+    .faq .que {
+        width: 420px;
+    }
+}
